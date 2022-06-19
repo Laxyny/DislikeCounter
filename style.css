@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(165, 51, 136); 
+    color: white;
+}
+
+h1 { 
+    text-align: center;
+}
+
+.container {
+    font-size: 20pxX;
+    display: flex;
+    align-items: Center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+}
+    ul { list-style: none;
+    padding: 0;
+    font-weight: 700;
+    justify-self: baseline;
+}
+
+span {
+    font-size: 25px;
+    color: chartreuse;
+}

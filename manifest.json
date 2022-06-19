@@ -1,0 +1,17 @@
+{
+    "name": "Dislike Counter",
+    "description": "Obtenez des informations sur les videos Youtube !",
+    "version": "1.0.0",
+    "background" : {
+        "scripts": ["index.js"],
+        "persistents": true
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "webNavigation",
+        "tabs"
+    ],
+    "manifest_version": 2
+}
